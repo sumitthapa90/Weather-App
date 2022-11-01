@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Playfair+Display&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Caveat", cursive;
+}
+
+.weatherBg {
+  background: url("../../public/images/weather.webp");
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: white;
+  font-weight: bold;
+}
+
+.weather-detail {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 500px;
+  height: 300px;
+}
+
+.weather-icon {
+  margin-top: 1rem;
+  font-size: 6rem;
+  color: orange;
+}
+.weather-city {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.weather-temp {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 30px;
+}
